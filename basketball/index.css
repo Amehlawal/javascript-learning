@@ -2,6 +2,10 @@
     justify-content: center;
     text-align: center;
 }
+@font-face {
+    font-family: 'digital-clock';
+    src: url('/digital-7.ttf');
+}
 body {
     margin: 0;
     background-color: #e5e5e5;
@@ -44,7 +48,7 @@ h3{
     background: rgb(0,0,0);
     height: 95px;
     width: 120px;
-    font-family: 'Cursed Timer ULiL';
+    font-family: 'digital-clock';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +61,7 @@ h3{
     border: 1.7px solid #9AABD8;
     padding: 8px 10px;
     border-radius: 5px;
-    font-family: 'Cursed Timer ULiL';
+    font-family: 'digital-clock';
     background-color: #1c2945;
     margin: 0px auto;
     color: #9AABD8;
