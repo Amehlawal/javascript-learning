@@ -33,3 +33,13 @@ function addOnei(){
     score2 += 3;
     board2El.textContent = score2;
  }
+
+ function game1(){
+    let countstr = ' ' + score1 + ':' + score2;
+    score1 = 0;
+    score2 = 0;
+    board1EL.textContent = score1;
+    board2El.textContent = score2;
+    document.getElementById('save').innerText += countstr;
+    
+ }
