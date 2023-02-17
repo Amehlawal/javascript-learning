@@ -36,9 +36,26 @@ h3{
     margin-inline-end: 0px;
     font-family: 'Times New Roman', Times, serif;
 }
-span{
-    border: 1px solid green;
-    padding: 3px;
-    
-    
+.num{
+    margin-top: -11px;
+    background: rgb(0,0,0);
+    height: 95px;
+    width: 120px;
+    font-family: 'Cursed Timer ULiL';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #F94F6D;
+    margin-bottom: 25px;
+}
+.font{
+    border: 1.7px solid #9AABD8;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    background-color: #1c2945;
+    margin: 0px auto;
+    color: #9AABD8;
+    margin-bottom: 50px;
 }
