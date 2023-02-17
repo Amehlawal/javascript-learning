@@ -1,15 +1,35 @@
-let homeEL = document.getElementById('home-el');
+let board1EL = document.getElementById('board1');
 
-let guestEl = document.getElementById('guest-el');
-let count = 0;
+let board2El = document.getElementById('board2');
+let score1 = 0;
+let score2 = 0;
 
 function addOne(){
-    count += 1;
-    homeEL.textContent = count;
-    guestEl.textContent = count;
+    score1 += 1;
+    board1EL.textContent = score1;
+    
 }
 
 function addTwo(){
-    count += 2;
-    homeEL.textContent = count;
+    score1 += 2;
+    board1EL.textContent = score1;
 }
+
+function addThree(){
+    score1 += 3;
+    board1EL.textContent = score1;
+}
+
+function addOnei(){
+    score2 += 1;
+    board2El.textContent = score2;
+}
+ function addTwoi(){
+    score2 += 2;
+    board2El.textContent = score2;
+ }
+
+ function addThreei(){
+    score2 += 3;
+    board2El.textContent = score2;
+ }
